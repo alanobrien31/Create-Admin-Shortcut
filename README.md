@@ -27,6 +27,13 @@ Run the script from PowerShell:
 
 .\Create-Shortcut.ps1 -TargetScriptPath "C:\Scripts\MyScript.ps1"
 
+or run without the -TargetScriptPath flag and you will get the below:
+
+PS C:\WINDOWS\system32> .\PSShortcuts-RunAsAdmin.ps1
+cmdlet PSShortcuts-RunAsAdmin.ps1 at command pipeline position 1
+Supply values for the following parameters:
+TargetScriptPath: 
+
 This creates:
 
 Desktop\Wintop.lnk
